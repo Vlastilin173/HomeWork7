@@ -118,7 +118,7 @@ void InputMatrix(int[,] matrix)
     }
 }
 
-void PrintArray(int[,] matrix)
+void PrintMatrix(int[,] matrix)
 {
 
     for (int i = 0; i < matrix.GetLength(0); i++)
@@ -147,4 +147,4 @@ for (int j = 0; j < numbers.GetLength(1); j++)
 }
 Console.WriteLine();
 Console.WriteLine("Начальный массив: ");
-PrintArray(numbers);
+PrintMatrix(numbers);
